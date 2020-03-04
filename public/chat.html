@@ -44,9 +44,14 @@
         <script id="sidebar-template" type="text/html">
             <h2 style="text-transform: capitalize;" class="room-title">{{room}}</h2>
             <h3 style="text-transform: capitalize;" class="list-title">Users</h3>
-            <ul class="users">
+            <ul class="users ">
                 {{#users}}
-                    <li style="text-transform: capitalize;">{{username}}</li>
+                    <li  style="text-transform: capitalize;text-transform: capitalize;
+                    margin-bottom: 2%;
+                    border: 1px solid rgba(0,0,0,.125);
+                    position: relative;
+                    display: block;
+                    padding: 0.55rem 1.25rem;">{{username}}</li>
                 {{/users}}
             </ul>
         </script>
